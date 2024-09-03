@@ -1,0 +1,301 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    min-width: 320px;
+  min-height: 100vh;
+    display: flex;
+    background-image: url('./img/Universe2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: cover;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    overflow: hidden; 
+}
+
+
+.stara{
+    position: absolute;
+    background-color:white;
+    border-radius: 50%;
+    z-index: -1;
+}
+
+.star{
+    position: absolute;
+    background-color:yellow;
+    border-radius: 50%;
+    z-index: -100;
+}
+
+.stars{
+    position: absolute;
+    background-color: white;
+    border-radius: 50%;
+    z-index: -200;
+}
+
+.starss{
+    position: absolute;
+    background-color: red;
+    border-radius: 50%;
+    z-index: -50;
+}
+
+.starssb{
+    position: absolute;
+    background-color: blue;
+    border-radius: 50%;
+    z-index: -250;
+}
+
+/*now for big size moving star*/
+
+
+@keyframes moveRight {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(100vw); 
+    }
+}
+
+.starsb {
+    position: absolute;
+    background-color: blue;
+    box-shadow: 0 2px 15px blue;
+    border-radius: 50%;
+    width: 5px;
+    height: 5px;
+    z-index: 10;
+    animation: moveRight 45s linear infinite; 
+}
+
+
+.starsw {
+    position: absolute;
+    width: 1.2px;
+    height: 5px;
+    border-radius: 50%;
+    z-index: 20;
+    background-color: white;
+    box-shadow: 0 2px 15px white;
+    animation: moveRight 40s linear infinite;
+}
+
+@keyframes moveRight {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(100vw); 
+    }
+}
+
+.starsy {
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    z-index: 30;
+    background-color:yellow;
+    box-shadow: 0 2px 15px yellow;
+    animation: moveRight 35s linear infinite;
+}
+
+@keyframes moveRight {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(100vw); 
+    }
+}
+
+.starsr {
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    z-index: 40;
+    background-color:rgb(236, 47, 47);
+    box-shadow: 0 2px 15px red;
+    animation: moveRight 50s linear infinite;
+}
+
+@keyframes moveRight {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(100vw); 
+    }
+} 
+
+/*now for small size movirng star*/
+
+.starsrs {
+    position: absolute;
+    width: 2px;
+    height: 2px;
+    border-radius: 50%;
+    z-index: 140;
+    background-color:rgb(236, 47, 47);
+    box-shadow: 0 2px 15px red;
+    animation: moveRight 30s linear infinite;
+}
+
+@keyframes moveRight {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(100vw); 
+    }
+} 
+@keyframes moveRight {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(100vw); 
+    }
+}
+
+.starsbs {
+    position: absolute;
+    background-color: blue;
+    box-shadow: 0 2px 15px blue;
+    border-radius: 50%;
+    width: 2px;
+    height: 2px;
+    z-index: 110;
+    animation: moveRight 10s linear infinite; 
+}
+
+@keyframes moveRight {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(100vw); 
+    }
+}
+
+.starsys {
+    position: absolute;
+    background-color: yellow;
+    box-shadow: 0 2px 15px yellow;
+    border-radius: 50%;
+    width: 2px;
+    height: 2px;
+    z-index: 130;
+    animation: moveRight 20s linear infinite; 
+}
+
+@keyframes moveRight {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(100vw); 
+    }
+}
+
+.starsws {
+    position: absolute;
+    background-color: white;
+    box-shadow: 0 2px 15px white;
+    border-radius: 50%;
+    width: 2px;
+    height: 2px;
+    z-index: 120;
+    animation: moveRight 8s linear infinite; 
+}
+
+/*now for very big size star*/
+
+.starswss {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    z-index: 145;
+    background-color:white;
+    box-shadow: 0 2px 15px white;
+    animation: moveRight 10s linear infinite;
+}
+
+@keyframes moveRight {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(100vw); 
+    }
+} 
+
+.starsbss {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    z-index: 135;
+    background-color:blue;
+    box-shadow: 0 2px 15px blue;
+    animation: moveRight 12s linear infinite;
+}
+
+@keyframes moveRight {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(100vw); 
+    }
+} 
+
+.starsrss {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    z-index: 125;
+    background-color:rgb(236, 47, 47);
+    box-shadow: 0 2px 15px red;
+    animation: moveRight 15s linear infinite;
+}
+
+@keyframes moveRight {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(100vw); 
+    }
+} 
+
+.starsyss {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    z-index: 115;
+    background-color:yellow;
+    box-shadow: 0 2px 15px yellow;
+    animation: moveRight 18s linear infinite;
+}
+
+@keyframes moveRight {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(100vw); 
+    }
+} 
+
